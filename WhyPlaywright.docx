@@ -1,0 +1,32 @@
+𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭 𝐰𝐢𝐭𝐡 𝐓𝐲𝐩𝐞 𝐒𝐜𝐫𝐢𝐩𝐭:
+
+It’s a Framework for Web Automation. It enables reliable end to end testing for modern Web Applications
+
+Key Features of Playwright:
+
+1. 𝑼𝒏𝒊𝒇𝒊𝒆𝒅 𝑨𝑷𝑰:   Playwright works across all modern browser engines (Chromium, WebKit, Firefox) using Unified API
+
+2. 𝑯𝒆𝒂𝒅𝒍𝒆𝒔𝒔 𝒂𝒏𝒅 𝑯𝒆𝒂𝒅𝒆𝒅: Supports Headless and UI Mod Execution
+
+3. 𝑹𝒆𝒔𝒊𝒍𝒊𝒆𝒏𝒕 𝑻𝒆𝒔𝒕𝒊𝒏𝒈: Due to Auto Waits and Auto Retry, Test cases Flakiness is eleminated
+
+4. 𝑬𝒂𝒔𝒚 𝑫𝒆𝒃𝒖𝒈𝒈𝒊𝒏𝒈: It offers features like stack trace, video recording which makes debugging easy
+
+5. 𝑬𝒂𝒔𝒚 𝑺𝒆𝒕 𝒖𝒑: Setting up Playwright is just a few clicks
+
+6. 𝑭𝒂𝒔𝒕: As It directly talks to Browser Engines using CDP and Custom protocols, It Makes execution fast
+
+
+𝐇𝐢𝐬𝐭𝐨𝐫𝐲 𝐨𝐟 𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭: 
+
+•Playwright was Released on 31st January 2020 by Microsoft
+•Playwright was created by Engineers who developed Puppeteer at Google
+•Limitations of Puppeteer: 
+Limited Cross browser support, Only chromium support, limited multiple browser context handling
+•Limitation of Selenium:
+Slower, Flakiness, Parallel Execution
+
+•Why Playwright was created?
+
+To Overcomes Limitation of above tools and to create a solution Fast Like Pupeteer, Cross browser, Isolation, Auto wait, Unified API 𝑻𝒉𝒊𝒔 𝒊𝒔 𝒘𝒉𝒆𝒓𝒆 𝑷𝒍𝒂𝒚𝒘𝒓𝒊𝒈𝒉𝒕 𝑩𝒐𝒓𝒏
+

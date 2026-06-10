@@ -1,0 +1,5 @@
+
+Examples of Sync and Aysnc operations
+
+1. console.log() --> Sync operation
+2. setTimeOut() , page.goto() --> Async operation

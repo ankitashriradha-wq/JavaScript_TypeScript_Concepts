@@ -1,0 +1,32 @@
+𝐇𝐨𝐰 𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭/𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 𝐰𝐨𝐫𝐤𝐬 𝐢𝐧𝐭𝐞𝐫𝐧𝐚𝐥𝐥𝐲?
+
+𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭 𝐓𝐲𝐩𝐞 𝐒𝐜𝐫𝐢𝐩𝐭 𝐒𝐭𝐞𝐩 𝐛𝐲 𝐒𝐭𝐞𝐩: 
+
+1. 𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭(𝐓𝐒) is super set of 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭(𝐉𝐒).  It adds types (String) but it must be converted to JS before Execution
+
+2. 𝐓𝐒 Code is Transpiled in to 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 and Executed by 𝐍𝐨𝐝𝐞
+
+3.  𝐉𝐒 is 𝐒𝐢𝐧𝐠𝐥𝐞-𝐓𝐡𝐫𝐞𝐚𝐝𝐞𝐝 But It can Handle multiple 𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 operations using Event Loop which makes it efficient
+
+4. In 𝐓𝐒 /𝐉𝐒 , Code takes place in two ways:
+
+-𝐒𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 
+
+-𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 
+
+5. 𝐒𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 Execution: Runs immediately on main thread. Each Line Execute one after another. 𝐓𝐡𝐫𝐞𝐚𝐝 𝐢𝐬 𝐛𝐥𝐨𝐜𝐤𝐞𝐝 before moving to next line of Code. Example: console.log()
+
+6. 𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 Execution:
+
+-Node engine starts operation and taken care in background by event loop
+
+-main 𝐓𝐡𝐫𝐞𝐚𝐝 𝐢𝐬 𝐧𝐨𝐭 𝐛𝐥𝐨𝐜𝐤𝐞𝐝 and move to next line of code to perform other operations
+
+-main thread then executes callback of Asynchronous method
+
+𝐖𝐡𝐲 𝐓𝐡𝐢𝐬 𝐌𝐚𝐭𝐭𝐞𝐫𝐬 𝐟𝐨𝐫 𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭?
+𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭 operations like 𝐥𝐚𝐮𝐧𝐜𝐡𝐢𝐧𝐠 𝐛𝐫𝐨𝐰𝐬𝐞𝐫𝐬, 𝐧𝐚𝐯𝐢𝐠𝐚𝐭𝐢𝐧𝐠 𝐩𝐚𝐠𝐞𝐬, and interacting with elements are 𝐀𝐬𝐲𝐧𝐜𝐡𝐫𝐨𝐧𝐨𝐮𝐬 because they involve I/O and can take time.
+𝐏𝐥𝐚𝐲𝐰𝐫𝐢𝐠𝐡𝐭 methods return 𝐏𝐫𝐨𝐦𝐢𝐬𝐞𝐬.
+
+𝑻𝒐 𝒆𝒏𝒔𝒖𝒓𝒆 𝒕𝒉𝒆𝒔𝒆 𝒐𝒑𝒆𝒓𝒂𝒕𝒊𝒐𝒏𝒔 𝒉𝒂𝒑𝒑𝒆𝒏 𝒊𝒏 𝒕𝒉𝒆 𝒄𝒐𝒓𝒓𝒆𝒄𝒕 𝒐𝒓𝒅𝒆𝒓 (𝒘𝒉𝒊𝒄𝒉 𝒊𝒔 𝒄𝒓𝒊𝒕𝒊𝒄𝒂𝒍 𝒇𝒐𝒓 𝒕𝒆𝒔𝒕 𝒂𝒖𝒕𝒐𝒎𝒂𝒕𝒊𝒐𝒏), 
+𝑾𝒆 𝒎𝒖𝒔𝒕 𝒖𝒔𝒆 𝒂𝒔𝒚𝒏𝒄 𝒇𝒖𝒏𝒄𝒕𝒊𝒐𝒏𝒔 𝒂𝒏𝒅 𝒕𝒉𝒆 𝒂𝒘𝒂𝒊𝒕 𝒌𝒆𝒚𝒘𝒐𝒓𝒅. Thats why wanted to cover this video at first place?
